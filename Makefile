@@ -3,7 +3,7 @@ IMAGE_TAG := v1
 CONTAINER_NAME := squid
 ENV_FILE_NAME := squid
 HOST_PORT := 8080
-ENV:=dev
+ENV:=$(Env)
 #APP_DIR := '/apps/dbuild'
 
 mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
