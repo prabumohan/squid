@@ -1,8 +1,8 @@
 IMAGE_NAME := pmohan/centos-squid
-IMAGE_TAG := v1
-CONTAINER_NAME := squid
+IMAGE_TAG := v5
+CONTAINER_NAME := $(Container_Name)
 ENV_FILE_NAME := squid
-HOST_PORT := 8080
+HOST_PORT := $(Port)
 ENV:=$(Env)
 #APP_DIR := '/apps/dbuild'
 
@@ -20,7 +20,7 @@ build:
 clean:
 	docker images $(IMAGE_NAME) | grep -q $(IMAGE_TAG) && docker rmi $(IMAGE_NAME):$(IMAGE_TAG) || true
 create:
-	docker run --privileged --name $(CONTAINER_NAME) --restart=always  -d -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p 8080:3128 -v $(MAKE_DIR)/squid_$(ENV).conf:/etc/squid/squid.conf -v $(MAKE_DIR)/hosts_$(ENV):/etc/hosts $(IMAGE_NAME):$(IMAGE_TAG)
+	docker run --privileged --name $(CONTAINER_NAME)  -d -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p $(HOST_PORT):3128 -v $(MAKE_DIR)/squid_$(ENV).conf:/etc/squid/squid.conf -v $(MAKE_DIR)/hosts_$(ENV):/etc/hosts -v $(MAKE_DIR)/logs/:/var/log/squid/ $(IMAGE_NAME):$(IMAGE_TAG)
 
 kill:
 	docker stop $(CONTAINER_NAME) && docker rm $(CONTAINER_NAME)

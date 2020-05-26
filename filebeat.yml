@@ -1,0 +1,48 @@
+filebeat.inputs:
+
+- type: log
+  enabled: false
+  paths:
+    - /var/log/*.log
+
+filebeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+
+  reload.enabled: false
+
+setup.template.settings:
+  index.number_of_shards: 1
+
+
+setup.template.overwrite: true
+setup.template.name: "squid"
+setup.template.pattern: "squid-*"
+setup.template.json.path: "/etc/filebeat/fields.yml"
+        
+setup.kibana:
+setup.template.enabled: true
+output.elasticsearch:
+  hosts: ["10.214.0.102:9200"]
+  index: "squid-%{+yyyy.MM.dd}"
+  setup.template.overwrite: true
+  setup.template.name: "squid"
+  setup.template.pattern: "squid-*"
+  setup.template.fields: "/etc/filebeat/fields.yml"
+
+processors:
+  - add_host_metadata: ~
+  - add_cloud_metadata: ~
+  - add_docker_metadata: ~
+  - add_kubernetes_metadata: ~
+
+logging.level: debug
+logging.to_files: true
+logging.files:
+  path: /var/log/filebeat
+  name: filebeat
+  keepfiles: 7
+  permissions: 0644
+  
+logging.selectors: ["*"]
+setup.ilm.enabled: false
+

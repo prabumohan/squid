@@ -1,9 +1,20 @@
-FROM pmohan/centos-squid:v1
+FROM feduxorg/centos:latest
+MAINTAINER fedux_org
 
-MAINTAINER Prabu Mohan <prabu.mohan@outlook.com>
-EXPOSE 3128/tcp
-ENV SQUID_VERSION=3.5.27 \
-    SQUID_CACHE_DIR=/var/spool/squid \
-    SQUID_LOG_DIR=/var/log/squid \
-    SQUID_USER=proxy
-COPY ./hosts /etc/hosts
+# ENV http_proxy http://172.17.42.1:3128
+# ENV https_proxy https://172.17.42.1:3128
+
+# Install base stuff.
+RUN groupadd -g 1000 squid \
+  && useradd -u 1000 squid -g 1000 \
+  && yum -y install squid \
+  && systemctl enable squid \
+  && yum clean -y all
+
+# Expose directories
+VOLUME ["/var/log/squid"]
+
+# Expose ports
+EXPOSE 8080
+EXPOSE 3128
+

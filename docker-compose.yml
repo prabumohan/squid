@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  Squid:
+    image: pmohan/squid_2020:template_v_9_8
+    ports:
+     - "8080:3128"
+    configs:
+      - source: my_config
+        target: /etc/squid/squid.conf
+      - source: hosts
+        target: /etc/hosts
+#      - source: filebeat 
+#        target: /etc/filebeat/filebeat.yml
+
+#    volumes:
+#      - type: volume
+#        source: squid-cache
+#        target: /var/spool/squid/
+    deploy:
+      mode: replicated
+      replicas: 2
+      update_config:
+        parallelism: 1
+        delay: 10s
+        order: stop-first
+configs:
+  my_config:
+    file: ./squid_prod.conf
+  hosts:
+    file: ./hosts_prod
+#  filebeat:
+#    file: ./filebeat.yml
+
+#volumes:
+#  squid-cache:
+
