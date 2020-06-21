@@ -1,22 +1,25 @@
 version: '3.8'
 
 services:
-  Squid:
-    image: pmohan/squid_2020:template_v_9_8
+  Squid_1:
+    image: pmohan/squid_2020:template_v_UTC
+#    hostname: Member1
     ports:
-     - "8080:3128"
+      - target: 3128
+        published: 3128
+        protocol: tcp
+        mode: host
+      - target: 3130
+        published: 3130
+        protocol: udp
+        mode: host
     configs:
-      - source: my_config
+      - source: my_config_3
         target: /etc/squid/squid.conf
-      - source: hosts
+      - source: hosts_CF_v2
         target: /etc/hosts
-#      - source: filebeat 
-#        target: /etc/filebeat/filebeat.yml
-
-#    volumes:
-#      - type: volume
-#        source: squid-cache
-#        target: /var/spool/squid/
+      - source: resolver
+        target: /etc/resolv.conf
     deploy:
       mode: replicated
       replicas: 2
@@ -24,14 +27,72 @@ services:
         parallelism: 1
         delay: 10s
         order: stop-first
+ #   volumes:
+ #      - cache:/var/spool/squid
+
+  cadvisor01:
+     image: google/cadvisor:latest
+     ports:
+       - 8087:8080
+     volumes:
+       - /:/rootfs:ro
+       - /var/run:/var/run:rw
+       - /sys:/sys:ro
+       - /var/lib/docker/:/var/lib/docker:ro
+     deploy:
+          placement:
+            constraints:
+              - node.hostname == prod-vl-cache-beta01.sbetprod.ads
+  cadvisor02:
+     image: google/cadvisor:latest
+     ports:
+       - 8088:8080
+     volumes:
+       - /:/rootfs:ro
+       - /var/run:/var/run:rw
+       - /sys:/sys:ro
+       - /var/lib/docker/:/var/lib/docker:ro
+     deploy:
+          placement:
+            constraints:
+              - node.hostname == prod-vl-cache-beta02.sbetprod.ads
+
+#    deploy:
+#      placement:
+#         constraints:
+#             - node.hostname == prod-vl-cache-beta01.sbetprod.ads
+
+#  Squid_2:
+#    image: pmohan/squid_2020:template_v_9_10.11
+#    hostname: Member2
+#    ports:
+#     - "3129:3128"
+#     - "3131:3131/udp"
+#
+#
+#    configs:
+#      - source: my_config_2
+#        target: /etc/squid/squid.conf
+#      - source: hosts_CF_v2
+#        target: /etc/hosts
+#      - source: resolver
+#        target: /etc/resolv.conf
+#
+#    deploy:
+#      placement:
+#         constraints:
+#             - node.hostname == prod-vl-cache-beta02.sbetprod.ads
+#
 configs:
+  my_config_3:
+    file: ./squid_prod_1.conf
   my_config:
-    file: ./squid_prod.conf
-  hosts:
-    file: ./hosts_prod
-#  filebeat:
-#    file: ./filebeat.yml
+    file: ./squid_prod_2.conf
+  hosts_CF_v2:
+    file: ./hosts
+  resolver:
+    file: ./resolv.conf
 
 #volumes:
-#  squid-cache:
+# cache:
 

@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  Squid_1:
+    image: pmohan/squid_2020:template_v_9_10.11
+    hostname: Member1
+    ports:
+     - "3128:3128"
+     - "3130:3130/udp"
+
+
+    configs:
+      - source: my_config_1
+        target: /etc/squid/squid.conf
+      - source: hosts_CF_v2
+        target: /etc/hosts
+      - source: resolver
+        target: /etc/resolv.conf
+
+    deploy:
+      placement:
+         constraints:
+             - node.hostname == prod-vl-cache-beta01.sbetprod.ads
+
+  Squid_2:
+    image: pmohan/squid_2020:template_v_9_10.11
+    hostname: Member2
+    ports:
+     - "3129:3128"
+     - "3131:3131/udp"
+
+
+    configs:
+      - source: my_config_2
+        target: /etc/squid/squid.conf
+      - source: hosts_CF_v2
+        target: /etc/hosts
+      - source: resolver
+        target: /etc/resolv.conf
+
+    deploy:
+      placement:
+         constraints:
+             - node.hostname == prod-vl-cache-beta02.sbetprod.ads
+
+configs:
+  my_config_1:
+    file: ./squid_prod_1.conf
+  my_config_2:
+    file: ./squid_prod_2.conf
+  hosts_CF_v2:
+    file: ./hosts
+  resolver:
+    file: ./resolv.conf
+
+
