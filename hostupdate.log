@@ -3,3 +3,255 @@
 #      - source: hosts_CF_v1
   hosts_CF_v1:
 found hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_1_hosts_CF_v2
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+0
+not found hosts_v1
+Creating config Pool_1_hosts_CF_v1
+Updating service Pool_1_cadvisor05 (id: wy0cmk91jf6x6ogdfm96uxj3z)
+Updating service Pool_1_cadvisor06 (id: dvaxbrwue587blijyxax4ss3h)
+Updating service Pool_1_Squid_1 (id: tx16xrbi3j90fnclbpcg49dug)
+Updating service Pool_1_cadvisor03 (id: feya6jfwj0b1mkapsu12cixry)
+Updating service Pool_1_cadvisor04 (id: tsgkat1ofknn0yhgeyrq5k0ka)

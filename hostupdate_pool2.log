@@ -1,0 +1,168 @@
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1
+0
+not found hosts_v1
+Creating config Pool_2_hosts_CF_v1
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v2
+0
+      - source: hosts_CF_v1
+  hosts_CF_v1:
+found hosts_CF_v1
+Creating config Pool_2_hosts_CF_v2
+Updating service Pool_2_Squid_2 (id: ucpgrcvgol3mmy076b0j5rrhq)
+Pool_2_hosts_CF_v1

@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  Squid_3:
+    image: pmohan/squid_2020:template_v_UTC
+    ports:
+      - target: 3128
+        published: 3139
+        protocol: tcp
+        mode: host
+      - target: 3130
+        published: 3141
+        protocol: udp
+        mode: host
+    configs:
+      - source: squid_config_3
+        target: /etc/squid/squid.conf
+      - source: hosts_CF_v1
+        target: /etc/hosts
+      - source: resolver
+        target: /etc/resolv.conf
+    deploy:
+      mode: replicated
+      replicas: 4
+      update_config:
+        parallelism: 1
+        delay: 10s
+        order: stop-first
+configs:
+  squid_config_3:
+    file: ./squid_pool3.conf
+  hosts_CF_v1:
+    file: ./hosts
+  resolver:
+    file: ./resolv.conf
+
